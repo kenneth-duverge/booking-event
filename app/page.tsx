@@ -1,7 +1,11 @@
+import fs from 'fs/promises';
 import { BookingCalendar } from '@/components/ui/booking-calendar';
 import { Grid } from '@radix-ui/themes';
 
-export default function Home() {
+export default async function Home() {
+  const data = await fs.readFile('./public/data.json', { encoding: 'utf-8' });
+
+  console.log(JSON.parse(data));
   return (
     <div className="flex w-full justify-center p-20 h-full font-mono">
       <Grid columns="2" width="100%">
