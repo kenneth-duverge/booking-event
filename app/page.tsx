@@ -19,7 +19,7 @@ export default async function Home() {
       <h1 className="text-4xl font-bold flex gap-4 items-center">find an event</h1>
       <Flex className="w-full" direction="column">
         <div className="w-full py-8 gap-4 flex">
-          <Select defaultValue="bushwick">
+          <Select>
             <SelectTrigger className="w-[200px] h-full">
               <SelectValue placeholder="Location" />
             </SelectTrigger>
