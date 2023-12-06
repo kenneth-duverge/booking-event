@@ -38,14 +38,14 @@ export default async function Home() {
               <h1 className="text-xl font-semibold">Intro to community building</h1>
               <p>Lorem ipsum</p>
             </div>
-            <Image src={featuredImage1} alt="" className="object-cover h-full" placeholder="blur" />
+            <Image src={featuredImage1} alt="" className="object-cover h-full" height={400} width={600} placeholder="blur" />
           </div>
           <div className="border rounded-md flex-1 h-[400px] overflow-hidden relative">
             <div className="text-white absolute inset-0 flex flex-col gap-2 justify-end items-end bg-gradient-to-br from-transparent to-slate-800 p-4">
               <h1 className="text-xl font-semibold">Sip & Stroke Soiree</h1>
               <p>Lorem ipsum</p>
             </div>
-            <Image src={featuredImage2} alt="" className="object-cover h-full" placeholder="blur" />
+            <Image src={featuredImage2} alt="" className="object-cover h-full" height={400} width={600} placeholder="blur" />
           </div>
         </section>
       </Flex>
