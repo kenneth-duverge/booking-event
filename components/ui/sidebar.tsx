@@ -29,7 +29,7 @@ export const Sidebar = () => {
           stroke="currentColor"
           width={24}
           height={24}
-          className="w-6 h-6 fill-amber-300 transition-colors"
+          className="w-6 h-6 fill-white transition-colors"
         >
           <path
             strokeLinecap="round"
