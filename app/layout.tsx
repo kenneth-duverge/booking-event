@@ -4,6 +4,7 @@ import './globals.css';
 import '@radix-ui/themes/styles.css';
 
 import { Theme } from '@radix-ui/themes';
+import { Sidebar } from '@/components/ui/sidebar';
 
 const space = Space_Mono({ weight: ['400'], subsets: ['latin'] });
 
@@ -15,8 +16,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={space.className}>
-        <Theme>{children}</Theme>
+      <body className={`${space.className} w-full min-h-screen flex flex-col`}>
+        <Theme>
+          <header className="w-full h-[80px] border-b"></header>
+          <div className="w-full flex" style={{ height: 'calc(100vh - 80px)' }}>
+            <Sidebar />
+            <div className="p-8 w-full h-full">{children}</div>
+          </div>
+        </Theme>
       </body>
     </html>
   );

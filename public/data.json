@@ -2,6 +2,60 @@
   "data": [
     {
       "id": 1,
+      "name": "Art display with G",
+      "bookings": [""],
+      "location": "Brooklyn, NY",
+      "createdDate": "",
+      "eventDate": ""
+    },
+    {
+      "id": 2,
+      "name": "Art display with G",
+      "bookings": [""],
+      "location": "Brooklyn, NY",
+      "createdDate": "",
+      "eventDate": ""
+    },
+    {
+      "id": 3,
+      "name": "Art display with G",
+      "bookings": [""],
+      "location": "Brooklyn, NY",
+      "createdDate": "",
+      "eventDate": ""
+    },
+    {
+      "id": 4,
+      "name": "Art display with G",
+      "bookings": [""],
+      "location": "Brooklyn, NY",
+      "createdDate": "",
+      "eventDate": ""
+    },
+    {
+      "id": 5,
+      "name": "Art display with G",
+      "bookings": [""],
+      "location": "Brooklyn, NY",
+      "createdDate": "",
+      "eventDate": ""
+    },
+    {
+      "id": 6,
+      "name": "asfasfafs",
+      "details": "asfasfasfasf",
+      "location": "",
+      "ticketPrice": "2",
+      "eventDate": "2023-12-21T07:42",
+      "bookings": [""]
+    },
+    {
+      "id": 7,
+      "name": "asfasfafs",
+      "details": "asfasfasfasf",
+      "location": "",
+      "ticketPrice": "2",
+      "eventDate": "2023-12-21T07:42",
       "bookings": [""]
     }
   ]
