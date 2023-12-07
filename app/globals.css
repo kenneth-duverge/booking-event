@@ -24,3 +24,7 @@ body {
 [aria-selected='true'] {
   color: white;
 }
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
